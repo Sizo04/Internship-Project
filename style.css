@@ -155,3 +155,14 @@ background-color: #0CEADC;
 .dark-color{
     color: blueviolet;
 }
+
+@media only screen and (max-width: 1075px){
+    .posts{
+        columns: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+}
