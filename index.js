@@ -1,4 +1,4 @@
-fetch('data.json')
+fetch('data.json') //getting data from the json file 
   .then(response => response.json())
   .then(data => {
     
@@ -27,7 +27,7 @@ fetch('data.json')
   
 
 
-let clickCounter = 0;
+let clickCounter = 0; //Loading 4 new posts on click
 function LoadMore(){
  clickCounter++
  let posts2 = document.getElementById('posts2');
@@ -49,7 +49,7 @@ function LoadMore(){
 }
 
 
-function darkMode(){
+function darkMode(){ //Dark Mode on/off
   let menu = document.getElementById('menu');
   let container = document.getElementById('container'); 
   let text = document.querySelectorAll('a');
