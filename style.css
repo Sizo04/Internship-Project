@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+            flex-direction: column;
+            max-width: 1400px;
+            margin: auto;
+
+}
+
+.menu ul{
+    list-style-type: none;
+}
+.menu li{
+    margin: 1em 0;
+}
+
+.menu ul li a{
+    color: #0CEADC;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 .5em;
+    
+}
+.menu{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+.menu input{
+    max-height: 35px;
+    margin: auto 1em;
+    border: 1px solid #0CEADC;
+    border-radius: 5px;
+    background-color: rgba(240, 248, 255, 0);
+}
+.menu input::placeholder{
+    color: #0CEADC;
+}
+.menu ul{
+    flex-direction: row;
+    display: flex;
+    margin: auto;
+}
+.menu button{
+    max-height: 30px;
+    margin: auto 1em;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    color: #0CEADC;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0);
+}
+.posts{
+    columns: 2;
+    margin: 3em 0;
+    
+}
+.post-layout{
+    display: flex;
+}
+.flexx{
+    flex-direction: row;
+}
+.posts .post-container{
+    max-width: 465px;
+    padding: 1em 2em;
+    background-color: rgba(128, 128, 128, 0.452);
+    margin: 2em;
+    border-radius: 15px;
+}
+
+.posts .post-container img{
+    max-width: 400px;
+}
+
+.posts .post-container .post-info{
+    display: flex;
+    max-width: 400px;
+    text-align: left;
+}
+.posts .post-container .post-info1{
+    display: flex;
+    max-width: 400px;
+    text-align: left;
+}
+
+.posts .post-container .post-info .text{
+    margin: 0 1em;
+}
+.posts .post-container .post-info1 .text1{
+    margin: 0 1em;
+}
+.posts .post-container .post-info .text .top{
+    display: flex;
+   
+}
+.posts .post-container .post-info1 .text1 .top{
+    display: flex;
+   
+}
+.posts .post-container .post-info .text .top p{
+    margin-left: auto;
+}
+.posts .post-container .post-info1 .text1 .top p{
+    margin-left: auto;
+}
+
+
+
+.posts .post-container .post-info img{
+    max-width: 40px;
+    max-height: 60px;
+}
+.posts .post-container .post-info1 img{
+    max-width: 40px;
+    max-height: 60px;
+}
+
+.post-footer{
+display: flex;
+}
+.post-footer p{
+    margin-left: auto;
+}
+
+#btn{
+    padding: 1em;
+    border: 1px solid #0CEADC;
+    border-radius: 10px;
+}
+
+#btn:hover{
+background-color: #0CEADC;
+}
+
+.hide{
+    display: none;
+}
+
+.dark{
+    background-color: rgb(59, 57, 57);
+    
+}
+
+.dark-color{
+    color: blueviolet;
+}

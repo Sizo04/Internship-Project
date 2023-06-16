@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Frontend challenge</title>
+    <meta name="author" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://embedsocial.com/cdn/fonts/roboto/stylesheet.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+   <header>
+    <div class="mobileMenu"></div>
+    <div id="menu" class="menu ">
+      <ul>
+        <li><a id="darkCol" href="#">Home</a></li>
+        <li><a  id="darkCol" href="#">Chats</a></li>
+        <li><a  id="darkCol"href="#">Vidoes</a></li>
+        <li><a  id="darkCol" href="#">Explore</a></li>
+        <input type="text" placeholder="Search">
+      <button id="colorMode" onclick="darkMode()">Dark Mode</button>
+      </ul>
+      
+    </div>
+   </header>
+    <div id="container" class="container">
+      
+      <div class="posts">
+        <div class="post-container">
+          <img id="post-img" src="" alt="" />
+          <div class="post-info">
+            <img id="profile-picture" src="" alt="" />
+            <div class="text">
+              <div class="top">
+                <h2 id="name"></h2>
+              </div>
+              <p id="content"></p>
+            </div>
+          </div>
+          <div class="post-footer">
+            <div class="date" id="date"></div>
+          <p id="likes"></p>
+          </div>
+        </div>
+        <div class="post-container">
+          <img id="post-img1" src="" alt="" />
+          <div class="post-info1">
+            <img id="profile-picture1" src="" alt="" />
+            <div class="text1">
+              <div class="top">
+                <h2 id="name1"></h2>
+               
+              </div>
+              <p id="content"></p>
+            </div>
+          </div>
+          <div class="post-footer">
+            <div class="date" id="date"></div>
+          <p id="likes1"></p>
+          </div>
+        </div>
+        <div class="post-container">
+          <img id="post-img1" src="" alt="" />
+          <div class="post-info1">
+            <img id="profile-picture1" src="" alt="" />
+            <div class="text1">
+              <div class="top">
+                <h2 id="name1"></h2>
+                
+              </div>
+              <p id="content"></p>
+            </div>
+          </div>
+          <div class="post-footer">
+            <div class="date" id="date"></div>
+          <p id="likes"></p>
+          </div>
+        </div>
+        <div class="post-container">
+          <img id="post-img1" src="" alt="" />
+          <div class="post-info1">
+            <img id="profile-picture1" src="" alt="" />
+            <div class="text1">
+              <div class="top">
+                <h2 id="name1"></h2>
+                
+              </div>
+              <p id="content"></p>
+            </div>
+          </div>
+          <div class="post-footer">
+            <div class="date" id="date"></div>
+          <p id="likes"></p>
+          </div>
+        </div>
+
+
+
+
+        <div id="posts2" class="hide">
+        <div class="post-container">
+          <img id="post-img1" src="" alt="" />
+          <div class="post-info1">
+            <img id="profile-picture1" src="" alt="" />
+            <div class="text1">
+              <div class="top">
+                <h2 id="name1"></h2>
+                
+              </div>
+              <p id="content"></p>
+            </div>
+          </div>
+          <div class="post-footer">
+            <div class="date" id="date"></div>
+          <p id="likes"></p>
+          </div>
+        </div>
+        <div class="post-container">
+          <img id="post-img1" src="" alt="" />
+          <div class="post-info1">
+            <img id="profile-picture1" src="" alt="" />
+            <div class="text1">
+              <div class="top">
+                <h2 id="name1"></h2>
+                
+              </div>
+              <p id="content"></p>
+            </div>
+          </div>
+          <div class="post-footer">
+            <div class="date" id="date"></div>
+          <p id="likes"></p>
+          </div>
+        </div>
+        <div class="post-container">
+          <img id="post-img1" src="" alt="" />
+          <div class="post-info1">
+            <img id="profile-picture1" src="" alt="" />
+            <div class="text1">
+              <div class="top">
+                <h2 id="name1"></h2>
+                
+              </div>
+              <p id="content"></p>
+            </div>
+          </div>
+          <div class="post-footer">
+            <div class="date" id="date"></div>
+          <p id="likes"></p>
+          </div>
+        </div>
+        <div class="post-container">
+          <img id="post-img1" src="" alt="" />
+          <div class="post-info1">
+            <img id="profile-picture1" src="" alt="" />
+            <div class="text1">
+              <div class="top">
+                <h2 id="name1"></h2>
+                
+              </div>
+              <p id="content"></p>
+            </div>
+          </div>
+          <div class="post-footer">
+            <div class="date" id="date"></div>
+          <p id="likes"></p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div id="posts3" class="hide">
+        <div class="post-container">
+          <img id="post-img1" src="" alt="" />
+          <div class="post-info1">
+            <img id="profile-picture1" src="" alt="" />
+            <div class="text1">
+              <div class="top">
+                <h2 id="name1"></h2>
+                
+              </div>
+              <p id="content"></p>
+            </div>
+          </div>
+          <div class="post-footer">
+            <div class="date" id="date"></div>
+          <p id="likes"></p>
+          </div>
+        </div>
+        <div class="post-container">
+          <img id="post-img1" src="" alt="" />
+          <div class="post-info1">
+            <img id="profile-picture1" src="" alt="" />
+            <div class="text1">
+              <div class="top">
+                <h2 id="name1"></h2>
+                
+              </div>
+              <p id="content"></p>
+            </div>
+          </div>
+          <div class="post-footer">
+            <div class="date" id="date"></div>
+          <p id="likes"></p>
+          </div>
+        </div>
+        <div class="post-container">
+          <img id="post-img1" src="" alt="" />
+          <div class="post-info1">
+            <img id="profile-picture1" src="" alt="" />
+            <div class="text1">
+              <div class="top">
+                <h2 id="name1"></h2>
+                
+              </div>
+              <p id="content"></p>
+            </div>
+          </div>
+          <div class="post-footer">
+            <div class="date" id="date"></div>
+          <p id="likes"></p>
+          </div>
+        </div>
+        <div class="post-container">
+          <img id="post-img1" src="" alt="" />
+          <div class="post-info1">
+            <img id="profile-picture1" src="" alt="" />
+            <div class="text1">
+              <div class="top">
+                <h2 id="name1"></h2>
+                
+              </div>
+              <p id="content"></p>
+            </div>
+          </div>
+          <div class="post-footer">
+            <div class="date" id="date"></div>
+          <p id="likes"></p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+        <div id="posts4" class="hide">
+        <div class="post-container">
+          <img id="post-img1" src="" alt="" />
+          <div class="post-info1">
+            <img id="profile-picture1" src="" alt="" />
+            <div class="text1">
+              <div class="top">
+                <h2 id="name1"></h2>
+                
+              </div>
+              <p id="content"></p>
+            </div>
+          </div>
+          <div class="post-footer">
+            <div class="date" id="date"></div>
+          <p id="likes"></p>
+          </div>
+        </div>
+        <div class="post-container">
+          <img id="post-img1" src="" alt="" />
+          <div class="post-info1">
+            <img id="profile-picture1" src="" alt="" />
+            <div class="text1">
+              <div class="top">
+                <h2 id="name1"></h2>
+                
+              </div>
+              <p id="content"></p>
+            </div>
+          </div>
+          <div class="post-footer">
+            <div class="date" id="date"></div>
+          <p id="likes"></p>
+          </div>
+        </div>
+        <div class="post-container">
+          <img id="post-img1" src="" alt="" />
+          <div class="post-info1">
+            <img id="profile-picture1" src="" alt="" />
+            <div class="text1">
+              <div class="top">
+                <h2 id="name1"></h2>
+                
+              </div>
+              <p id="content"></p>
+            </div>
+          </div>
+          <div class="post-footer">
+            <div class="date" id="date"></div>
+          <p id="likes"></p>
+          </div>
+        </div>
+        <div class="post-container">
+          <img id="post-img1" src="" alt="" />
+          <div class="post-info1">
+            <img id="profile-picture1" src="" alt="" />
+            <div class="text1">
+              <div class="top">
+                <h2 id="name1"></h2>
+                
+              </div>
+              <p id="content"></p>
+            </div>
+          </div>
+          <div class="post-footer">
+            <div class="date" id="date"></div>
+          <p id="likes"></p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+        <div id="posts5" class="hide">
+        <div class="post-container">
+          <img id="post-img1" src="" alt="" />
+          <div class="post-info1">
+            <img id="profile-picture1" src="" alt="" />
+            <div class="text1">
+              <div class="top">
+                <h2 id="name1"></h2>
+                
+              </div>
+              <p id="content"></p>
+            </div>
+          </div>
+          <div class="post-footer">
+            <div class="date" id="date"></div>
+          <p id="likes"></p>
+          </div>
+        </div>
+        <div class="post-container">
+          <img id="post-img1" src="" alt="" />
+          <div class="post-info1">
+            <img id="profile-picture1" src="" alt="" />
+            <div class="text1">
+              <div class="top">
+                <h2 id="name1"></h2>
+                
+              </div>
+              <p id="content"></p>
+            </div>
+          </div>
+          <div class="post-footer">
+            <div class="date" id="date"></div>
+          <p id="likes"></p>
+          </div>
+        </div>
+        <div class="post-container">
+          <img id="post-img1" src="" alt="" />
+          <div class="post-info1">
+            <img id="profile-picture1" src="" alt="" />
+            <div class="text1">
+              <div class="top">
+                <h2 id="name1"></h2>
+                
+              </div>
+              <p id="content"></p>
+            </div>
+          </div>
+          <div class="post-footer">
+            <div class="date" id="date"></div>
+          <p id="likes"></p>
+          </div>
+        </div>
+       
+      </div>
+     
+    </div>
+    <div class="load-btn">
+      <button id="btn" onclick="LoadMore()">Load More</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
